@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.active-link{
+  @apply dark:text-white text-black
+}
+
+.animate-glow {
+  box-shadow: 0 0 20px #fbbf24, 0 0 40px #f59e0b;
+}
