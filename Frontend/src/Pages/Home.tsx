@@ -71,7 +71,7 @@ export function Home(){
                 <div className="font-semibold">
                   Riyaz Basha
                 </div>
-                <img src="../Riyaz.ico" alt="icon" className="w- h-5 mr-2"></img>
+                <img src="icons/Riyaz.ico" alt="icon" className="w- h-5 mr-2"></img>
       </div>
       </div>
     )
