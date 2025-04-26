@@ -41,7 +41,7 @@ export interface Certification {
     'Start Date': string;
     'End Date': string;
     CGPA: string;
-    logo: string;
+    Logo: string;
   }  
 
 export type CombinedData = [HomeData[], Education[], Experience[], Project[], Skill[], Certification[]];
