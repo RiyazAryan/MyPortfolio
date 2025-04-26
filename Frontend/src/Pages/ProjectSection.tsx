@@ -68,10 +68,10 @@ export function ProjectsSection() {
             <a className="text-xl font-bold text-yellow-500" href={proj.Website}><h3>{proj.Title}</h3></a>
             <p className="text-sm text-gray-600 dark:text-gray-300">{proj.Description}</p>
             <p className="mt-2 h-10 text-sm font-mono text-red-600 line-clamp-2">{proj['Tech Stack']}</p>
-            <div className="mt-3 space-x-3">
+            <div className="flex px-2 mt-3 space-x-3">
               <a href={proj['GitHub Link']} target="_blank" rel="noreferrer" className="text-blue-500 underline"><img className="h-7 w-7" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></img></a>
               {proj.Website && (
-                <a href={proj.Website} target="_blank" rel="noreferrer" className="text-green-500 underline">Live</a>
+                <a href={proj.Website} target="_blank" rel="noreferrer" className="text-green-500 underline"><img className="h-7 w-7" src="https://i.pinimg.com/736x/fd/71/cc/fd71cc920df96dfb498587b177d3c658.jpg"></img></a>
               )}
             </div>
             </div>
